@@ -26,28 +26,22 @@ BEGIN
 END;
 GO
 
--- Create your new database:
+-- Creating new database:
 CREATE DATABASE DataWarehouse;
+GO
 
--- Switch to  your database:
+-- Switch to database:
 USE DataWarehouse;
+GO
 
--- Create your new schema:
+-- Creating new schemas:
 CREATE SCHEMA bronze;
-
--- Refresh 'Object Explorer', check under Security>Schemas
-
--- Create other schema:
+GO
 CREATE SCHEMA silver;
+GO
 CREATE SCHEMA gold;
+GO
 
 -- Refresh 'Object Explorer', check under Security>Schemas
--- To execute multiple CREATE SCHEMA at once, insert 'GO':
-	-- CREATE SCHEMA bronze;
-	-- GO
-	-- CREATE SCHEMA silver;
-	-- GO
-	-- CREATE SCHEMA gold;
-	-- GO
 
 
