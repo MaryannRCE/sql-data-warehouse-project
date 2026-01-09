@@ -14,7 +14,7 @@ WARNING:
   you have proper backups before running this script.
 */
 
--- To allow creation of new database:
+-- To create a new database, switch to 'master':
 USE master;
 GO
 
