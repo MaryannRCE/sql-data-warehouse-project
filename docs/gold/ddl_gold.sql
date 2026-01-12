@@ -26,7 +26,7 @@ LEFT JOIN [silver].[erp_loc_a101] la
 GO
   
 IF OBJECT_ID ('gold.dim_product', 'V') IS NOT NULL
-	DROP gold.dim_product;
+	DROP VIEW gold.dim_product;
 GO
 
 CREATE VIEW gold.dim_product AS
@@ -51,7 +51,7 @@ GO
 
 -- Creating Fact Sales
 IF OBJECT_ID ('gold.fact_sales', 'V') IS NOT NULL
-	DROP gold.fact_sales;
+	DROP VIEW gold.fact_sales;
 GO
 
 CREATE VIEW gold.fact_sales AS
